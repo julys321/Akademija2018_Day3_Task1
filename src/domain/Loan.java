@@ -7,15 +7,12 @@ import java.util.Date;
 public class Loan {
 
     private Date creationDate;
-
-
     private int termInYears;
     private String name;
 
 
     public BigDecimal interestRate;
     public BigDecimal price;
-
     public LoanRiskType riskType;
 
     public boolean isValid() {
